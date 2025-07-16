@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de Sorteo</title>
+</head>
+<body>
+  <h2>Inscripción al sorteo</h2>
+  <form id="formulario">
+    <input type="text" name="nombre" placeholder="Nombre" required><br>
+    <input type="text" name="apellido" placeholder="Apellido" required><br>
+    <input type="text" name="dni" placeholder="DNI" required><br>
+    <input type="text" name="domicilio" placeholder="Domicilio" required><br>
+
+    <label for="numero">Elegí tu número:</label>
+    <select id="numero" name="numero" required></select><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <p id="mensaje"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
